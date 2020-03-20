@@ -1,0 +1,44 @@
+2020-03-20 11:32:01,021 INFO o.s.c.c.c.ConfigServicePropertySourceLocator [main] Fetching config from server at : http://localhost:8888
+2020-03-20 11:32:03,133 INFO o.s.c.c.c.ConfigServicePropertySourceLocator [main] Connect Timeout Exception on Url - http://localhost:8888. Will be trying the next url if available
+2020-03-20 11:32:03,136 WARN o.s.c.c.c.ConfigServicePropertySourceLocator [main] Could not locate PropertySource: I/O error on GET request for "http://localhost:8888/application/test": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+2020-03-20 11:32:03,144 INFO o.s.b.SpringApplication [main] The following profiles are active: test
+2020-03-20 11:32:03,742 INFO o.s.c.c.s.GenericScope [main] BeanFactory id=71a6e9bc-ae1a-3863-bb3e-388f0821a68a
+2020-03-20 11:32:03,992 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2020-03-20 11:32:04,010 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2020-03-20 11:32:04,011 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2020-03-20 11:32:04,012 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-20 11:32:04,133 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2020-03-20 11:32:04,134 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 947 ms
+2020-03-20 11:32:04,522 INFO o.s.s.c.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-20 11:32:05,094 INFO o.s.b.a.e.w.EndpointLinksResolver [main] Exposing 15 endpoint(s) beneath base path '/actuator'
+2020-03-20 11:32:05,151 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2020-03-20 11:32:05,194 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2020-03-20 11:32:05,433 INFO o.s.b.StartupInfoLogger [main] Started ActuatorApplication in 5.479 seconds (JVM running for 6.547)
+2020-03-20 11:32:10,380 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-20 11:32:10,381 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2020-03-20 11:32:10,390 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 8 ms
+2020-03-20 11:32:10,427 DEBUG c.e.a.c.PetController [http-nio-8080-exec-1] 1
+2020-03-20 11:32:10,445 INFO c.z.h.HikariDataSource [http-nio-8080-exec-1] HikariPool-1 - Starting...
+2020-03-20 11:32:10,457 WARN c.z.h.u.DriverDataSource [http-nio-8080-exec-1] Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-03-20 11:32:10,953 INFO c.z.h.HikariDataSource [http-nio-8080-exec-1] HikariPool-1 - Start completed.
+2020-03-20 12:00:28,595 WARN o.s.w.s.h.AbstractHandlerExceptionResolver [http-nio-8080-exec-3] Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unexpected character ('s' (code 115)): was expecting double-quote to start field name; nested exception is com.fasterxml.jackson.core.JsonParseException: Unexpected character ('s' (code 115)): was expecting double-quote to start field name
+ at [Source: (PushbackInputStream); line: 2, column: 3]]
+2020-03-20 12:03:17,505 INFO o.s.c.c.c.ConfigServicePropertySourceLocator [http-nio-8080-exec-8] Fetching config from server at : http://localhost:8888
+2020-03-20 12:03:19,528 INFO o.s.c.c.c.ConfigServicePropertySourceLocator [http-nio-8080-exec-8] Connect Timeout Exception on Url - http://localhost:8888. Will be trying the next url if available
+2020-03-20 12:03:19,528 WARN o.s.c.c.c.ConfigServicePropertySourceLocator [http-nio-8080-exec-8] Could not locate PropertySource: I/O error on GET request for "http://localhost:8888/application/test": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+2020-03-20 12:03:19,533 INFO o.s.b.SpringApplication [http-nio-8080-exec-8] The following profiles are active: test
+2020-03-20 12:03:19,542 INFO o.s.b.StartupInfoLogger [http-nio-8080-exec-8] Started application in 3.153 seconds (JVM running for 1881.302)
+2020-03-20 12:03:19,636 INFO c.z.h.HikariDataSource [http-nio-8080-exec-8] HikariPool-1 - Shutdown initiated...
+2020-03-20 12:03:19,648 INFO c.z.h.HikariDataSource [http-nio-8080-exec-8] HikariPool-1 - Shutdown completed.
+2020-03-20 12:11:40,109 INFO o.s.c.c.c.ConfigServicePropertySourceLocator [http-nio-8080-exec-4] Fetching config from server at : http://localhost:8888
+2020-03-20 12:11:42,128 INFO o.s.c.c.c.ConfigServicePropertySourceLocator [http-nio-8080-exec-4] Connect Timeout Exception on Url - http://localhost:8888. Will be trying the next url if available
+2020-03-20 12:11:42,130 WARN o.s.c.c.c.ConfigServicePropertySourceLocator [http-nio-8080-exec-4] Could not locate PropertySource: I/O error on GET request for "http://localhost:8888/application/test": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+2020-03-20 12:11:42,131 INFO o.s.b.SpringApplication [http-nio-8080-exec-4] The following profiles are active: test
+2020-03-20 12:11:42,142 INFO o.s.b.StartupInfoLogger [http-nio-8080-exec-4] Started application in 2.562 seconds (JVM running for 2383.901)
+2020-03-20 12:17:15,379 WARN o.s.w.s.h.AbstractHandlerExceptionResolver [http-nio-8080-exec-2] Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2020-03-20 12:17:20,634 INFO o.s.c.c.c.ConfigServicePropertySourceLocator [http-nio-8080-exec-1] Fetching config from server at : http://localhost:8888
+2020-03-20 12:17:22,650 INFO o.s.c.c.c.ConfigServicePropertySourceLocator [http-nio-8080-exec-1] Connect Timeout Exception on Url - http://localhost:8888. Will be trying the next url if available
+2020-03-20 12:17:22,651 WARN o.s.c.c.c.ConfigServicePropertySourceLocator [http-nio-8080-exec-1] Could not locate PropertySource: I/O error on GET request for "http://localhost:8888/application/test": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+2020-03-20 12:17:22,652 INFO o.s.b.SpringApplication [http-nio-8080-exec-1] The following profiles are active: test
+2020-03-20 12:17:22,658 INFO o.s.b.StartupInfoLogger [http-nio-8080-exec-1] Started application in 2.555 seconds (JVM running for 2724.417)
+2020-03-20 12:19:49,603 INFO o.s.s.c.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
